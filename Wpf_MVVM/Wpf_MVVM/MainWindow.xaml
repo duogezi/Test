@@ -1,0 +1,10 @@
+﻿<Window x:Class="Wpf_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="208,226,0,0" VerticalAlignment="Top" Width="75" Command="{Binding CopyCommand}"/>
+        <TextBox HorizontalAlignment="Left" Height="80" Margin="163,69,0,0" TextWrapping="Wrap" Text="{Binding model.WPF}" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Window>
